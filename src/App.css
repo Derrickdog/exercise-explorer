@@ -66,11 +66,12 @@ body {
   
   .hero-banner-img {
     position: absolute;
-    right: 40px;
-    top: 150px;
+    right: 0px;
+    top: 0px;
     width: 700px;
     height: 900px;
-    margin-top: -330px;
+    margin-top: -240px;
+    border-radius: 50px;
   }
   
   .exercise-card {
