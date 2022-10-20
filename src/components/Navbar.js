@@ -17,8 +17,8 @@ const Navbar = () => {
         alignItems="center"
         justifyContent="center"
       >
-        <Link to="/" class="nav-btn" >HOME</Link>
-        <a href="#exercises" class="nav-btn">EXERCISES</a>
+        <Link to="/" className="nav-btn" >HOME</Link>
+        <a href="#exercises" className="nav-btn">EXERCISES</a>
       </Stack>
     </Stack>
   )
