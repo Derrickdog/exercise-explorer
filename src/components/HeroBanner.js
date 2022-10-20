@@ -6,7 +6,7 @@ import HeroBannerImage from '../assets/images/weights.jpeg'
 const HeroBanner = () => {
   return (
     <Box sx={{ mt: { lg: '50px', xs: '70px' }, ml: { sm: '50px' } }} position="relative" p="20px">
-      <Typography color="#FF2625" fontSize="50px" fontWeight="700">Exercise Explorer</Typography>
+      <Typography color="#FF2625" fontSize="50px" fontWeight="700">Exercise Database</Typography>
       <Typography fontWeight={700} sx={{ fontSize: { lg: '28px', xs: '40px' } }} mb="23px" mt="30px">
         Browse and Search
         <br />Exercises
