@@ -1,13 +1,10 @@
 import React from 'react';
-import { Box } from '@mui/material';
-// import Logo from '../assets/images/Logo-1.png';
+import { Box, Link } from '@mui/material';
+import GitHub from '../assets/icons/github-logo.png'
 
 const Footer = () => (
-  <Box mt="80px" mb="80px">
-    {/* <Stack gap="40px" sx={{ alignItems: 'center' }} flexWrap="wrap" px="40px" pt="24px">
-      <img src={Logo} alt="logo" style={{ width: '200px', height: '41px' }} />
-    </Stack>
-    <Typography variant="h5" sx={{ fontSize: { lg: '28px', xs: '20px' } }} mt="41px" textAlign="center" pb="40px">Made by Derrickdog</Typography> */}
+  <Box mt="60px" mb="60px" textAlign="center">
+    <Link href="https://www.github.com/derrickdog" rel="noopener" target="_blank" underline="hover"  sx={{color: 'black'}}><img src={GitHub} alt="GitHub Logo" width="16px" /> Derrickdog</Link>
   </Box>
 );
 
