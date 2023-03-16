@@ -1,6 +1,6 @@
-# Exercise Database
+# Exercise Explorer
 
-Live Demo: [Exercise Database](https://exercisedb.netlify.app/)
+Live Demo: [Exercise Explorer](https://exercisedb.netlify.app/)
 
 ## Description
 
